@@ -1,0 +1,424 @@
+* {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+:root {
+    --primary-color: #f6f8fd;
+    --secondary-color: #dc3545;
+    --color-text: #231942;
+    --navbar-color: #ffffff;
+    --navbar-color-text: #1a1a1a;
+}
+
+/* src/App.css */
+
+/* Hero Section Styles */
+.hero-section {
+    background-color: white;
+    padding: -10vh 0;
+    margin-left: 10vh;
+}
+
+.hero-section img {
+    width: 75%;
+    height: auto;
+    margin-left: 13vh;
+}
+
+.hero-section h1 {
+    color: #1a1a1a;
+    margin-left: 1vh;
+}
+
+.hero-section p {
+    color: #6c757d;
+    margin-left: 1vh;
+}
+
+.hero-section a {
+    margin-top: 20px;
+    padding-left: 25vh;
+    padding-top: 1.3vh;
+    padding-right: 25vh;
+    padding-bottom: 1.3vh;
+    font-size: medium;
+    border-radius: 10000px;
+    background: white;
+    color: #1a1a1a;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #1a1a1a;
+    transition: none;
+
+}
+
+.hero-section a:hover {
+    margin-top: 20px;
+    padding-left: 25vh;
+    padding-top: 1.3vh;
+    padding-right: 25vh;
+    padding-bottom: 1.3vh;
+    font-size: medium;
+    border-radius: 10000px;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #1a1a1a;
+    transition: none;
+}
+
+.hero-section a:active {
+    margin-top: 20px;
+    padding-left: 25vh;
+    padding-top: 1.3vh;
+    padding-right: 25vh;
+    padding-bottom: 1.3vh;
+    font-size: medium;
+    border-radius: 10000px;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #1a1a1a;
+    transition: none;
+}
+
+
+.navbar {
+    position: fixed;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar .nav-link a {
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: 0.5s;
+}
+
+.navbar .nav-link a:hover {
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+
+.navbar .nav-link a:active {
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    background: rgb(255, 78, 78);
+    border-radius: 2px;
+}
+
+.navbar .button-collapse {
+    margin-left: 1vh;
+}
+
+.navbar .button-collapse .Button {
+    background-color: #1a1a1a;
+    padding: 12px 45px 12px 45px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.navbar .button-collapse .Button:hover {
+    background-color: #ffffff;
+    padding: 12px 45px 12px 45px;
+    color: #1a1a1a;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #1a1a1a;
+}
+
+.About-Me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Me .Text-About {
+    text-align: center;
+    width: 70vh;
+}
+
+#Hire-me {
+    margin-top: 40vh;
+}
+
+#Hire-me .hire-button {
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#Hire-me .hire-button a {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 15vh;
+    padding-top: 2vh;
+    padding-right: 15vh;
+    padding-bottom: 2vh;
+    font-size: medium;
+    border-radius: 10000px;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #1a1a1a;
+    transition: none;
+}
+#Hire-me .hire-button a:hover {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 15vh;
+    padding-top: 2vh;
+    padding-right: 15vh;
+    padding-bottom: 2vh;
+    font-size: medium;
+    border-radius: 10000px;
+    background: #ffffff;
+    color: #1a1a1a;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #1a1a1a;
+    transition: none;
+}
+
+.Hire-me-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hire-me-div .Text-Hire-Me {
+    text-align: center;
+    width: 70vh;
+}
+
+.footer-custom {
+    background-color: #1a1a1a; /* Warna hitam */
+    padding: 30px 0;
+    color: #ffffff; /* Warna teks putih */
+    margin-top: 20vh;
+  }
+  
+  .footer-custom h5 {
+    color: #ffffff;
+    background-color: #1a1a1a;
+    margin-bottom: 4vh;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    color: #ffffff;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 0;
+  }
+
+  .Project {
+    margin-top: 17vh;
+  }
+  #Card {
+    width: fit-content;
+  }
+  .Project .Text-Project {
+    font-size: 4vh;
+    margin-left: 28vh;
+    margin-bottom: 4vh;
+  }
+  .Project {
+    z-index: 0;
+  }
+  
+/* Animasi untuk carousel */
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes moveRightSlow {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Gaya tambahan untuk carousel saat hover */
+.custom-carousel:hover {
+    animation: moveRightSlow 6s linear infinite;
+}
+
+/* Gaya tambahan untuk item carousel */
+.custom-carousel .carousel-item {
+    transition: transform 0.5s ease;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10vh;
+}
+
+/* Gaya untuk setiap item logo */
+.logo-item {
+    width: 200px;
+    /* Sesuaikan dengan ukuran yang diinginkan */
+    height: 100px;
+    margin-bottom: 10px;
+    /* Jarak antara setiap logo */
+}
+
+/* Gaya tambahan untuk carousel saat hover */
+.custom-carousel:hover {
+    animation: moveRightSlow 6s linear infinite;
+}
+
+/* Gaya tambahan untuk item carousel */
+.custom-carousel .carousel-item {
+    transition: transform 0.5s ease;
+}
+
+
+/* Responsiveness Styles */
+@media (max-width: 767px) {
+    .hero-section img {
+        width: 60%;
+        margin-top: -15vh;
+        z-index: 0;
+    }
+
+    .hero-section {
+        margin: 0;
+    }
+
+    .hero-section .collapse-text {
+        margin-top: -10vh;
+    }
+
+    .hero-section h1 {
+        margin: 0;
+        font-size: 4vh;
+        z-index: 9999;
+    }
+
+    .hero-section p {
+        margin: 0;
+        margin-top: 2vh;
+        font-size: 2vh;
+    }
+
+    .hero-section {
+        padding: 13vh 0;
+        text-align: center;
+    }
+
+    .hero-section img {
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .hero-section a {
+        margin-top: 20px;
+        padding-left: 20vh;
+        padding-top: 1.3vh;
+        padding-right: 20vh;
+        padding-bottom: 1.3vh;
+        font-size: medium;
+        border-radius: 10000px;
+        background: white;
+        color: #1a1a1a;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 0.5px;
+        border-color: #1a1a1a;
+        transition: none;
+    }
+
+    .hero-section a:hover {
+        margin-top: 20px;
+        padding-left: 20vh;
+        padding-top: 1.3vh;
+        padding-right: 20vh;
+        padding-bottom: 1.3vh;
+        font-size: medium;
+        border-radius: 10000px;
+        background: #1a1a1a;
+        color: white;
+        border-radius: 30px;
+        border-style: solid;
+        border-width: 0.5px;
+        border-color: #1a1a1a;
+        transition: none;
+    }
+
+    .logo-item {
+        width: 85px;
+        /* Sesuaikan dengan ukuran yang diinginkan */
+        height: 45px;
+        margin-bottom: 10px;
+        /* Jarak antara setiap logo */
+    }
+
+    .logo-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 4vh;
+    }
+
+    .footer h5 {
+        margin-top: 20px;
+        /* Berikan ruang antara judul dan konten di layar kecil */
+    }
+
+    .footer-bottom p {
+        text-align: center;
+        /* Pusatkan teks pada layar kecil */
+    }
+    .About-Me {
+        margin-top: 5vh;
+    }
+    #Hire-me {
+        margin-top: 20vh;
+    }
+    .Hire-me-div .Text-Hire-Me {
+        font-size: 30px;
+    }
+    .Project .Text-Project {
+        font-size: 4vh;
+        margin-left: 2vh;
+        margin-top: 5vh;
+
+      }
+}
